@@ -1,0 +1,26 @@
+/* ============================
+   RESPONSIVIDAD
+   ============================ */
+
+/* Tablet */
+@media (min-width: 768px) {
+  main {
+    max-width: 700px;
+  }
+
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  main {
+    max-width: 900px;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
