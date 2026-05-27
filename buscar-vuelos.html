@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Buscar Vuelos</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/forms.css">
+</head>
+<body>
+
+  <header class="header">
+    <img src="img/logo.png" class="logo" alt="Quetzal Air">
+  </header>
+
+  <main>
+    <h1 class="title">Buscar Vuelos</h1>
+
+    <!-- Formulario -->
+    <form class="form">
+
+      <!-- Origen -->
+      <div class="form-group">
+        <label for="origen">Origen</label>
+        <input id="origen" type="text" placeholder="Ciudad de origen">
+      </div>
+
+      <!-- Destino -->
+      <div class="form-group">
+        <label for="destino">Destino</label>
+        <input id="destino" type="text" placeholder="Ciudad destino">
+      </div>
+
+      <!-- Fecha -->
+      <div class="form-group">
+        <label for="fecha">Fecha</label>
+        <input id="fecha" type="date">
+      </div>
+
+      <!-- Botón -->
+      <button type="button" class="btn-primary" onclick="location.href='vuelos.html'">
+        Buscar
+      </button>
+
+    </form>
+  </main>
+
+</body>
+</html>
