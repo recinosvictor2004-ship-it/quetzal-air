@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Menú - Quetzal Air</title>
+
+  <!-- Importamos los estilos globales -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Encabezado con degradado -->
+  <header class="header">
+    <img src="img/logo.png" class="logo" alt="Quetzal Air">
+  </header>
+
+  <main>
+    <h1 class="title">Menú Principal</h1>
+
+    <!-- Grid con las opciones del menú -->
+    <div class="menu-grid">
+
+      <!-- Cada tarjeta es un botón que lleva a otra pantalla -->
+      <div class="menu-card" onclick="location.href='buscar-vuelos.html'">
+        <span class="menu-card-icon">✈️</span>
+        <span>Buscar vuelos</span>
+      </div>
+
+      <div class="menu-card" onclick="location.href='vuelos.html'">
+        <span class="menu-card-icon">📋</span>
+        <span>Vuelos disponibles</span>
+      </div>
+
+      <div class="menu-card" onclick="location.href='checkin.html'">
+        <span class="menu-card-icon">🛄</span>
+        <span>Check-in</span>
+      </div>
+
+      <div class="menu-card" onclick="location.href='mis-vuelos.html'">
+        <span class="menu-card-icon">🛫</span>
+        <span>Mis vuelos</span>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
