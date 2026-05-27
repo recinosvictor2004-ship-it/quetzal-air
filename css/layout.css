@@ -1,0 +1,54 @@
+/* ============================
+   LAYOUTS Y TARJETAS
+   ============================ */
+
+/* Grid del menú principal */
+.menu-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Tarjeta del menú */
+.menu-card {
+  background: var(--white);
+  padding: 1.2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Icono del menú */
+.menu-card-icon {
+  font-size: 1.8rem;
+}
+
+/* Lista de vuelos */
+.flights-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Tarjeta de vuelo */
+.flight-card {
+  background: var(--white);
+  padding: 1.2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+/* Línea principal del vuelo */
+.flight-main {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+/* Datos secundarios */
+.flight-meta {
+  font-size: .85rem;
+  color: var(--muted);
+}
