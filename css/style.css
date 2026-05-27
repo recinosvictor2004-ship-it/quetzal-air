@@ -1,0 +1,95 @@
+/* ============================
+   VARIABLES Y ESTILOS GLOBALES
+   ============================ */
+
+:root {
+  /* Colores corporativos */
+  --pink: #d13cff;
+  --blue-dark: #0E1628;
+  --white: #ffffff;
+  --text: #1f2933;
+  --muted: #6b7280;
+
+  /* Estética general */
+  --radius: 14px;
+  --shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fuente y fondo general */
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f5f7fb;
+  color: var(--text);
+}
+
+/* Enlaces */
+a {
+  color: var(--pink);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Encabezado con logo */
+.header {
+  background: linear-gradient(135deg, var(--pink), var(--blue-dark));
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.logo {
+  width: 140px;
+}
+
+/* Contenedor principal */
+main {
+  max-width: 480px;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+/* Títulos */
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Botón principal */
+.btn-primary {
+  width: 100%;
+  padding: 1rem;
+  background: var(--pink);
+  color: var(--white);
+  border: none;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: transform .2s;
+}
+
+.btn-primary:hover {
+  transform: scale(1.02);
+}
+
+/* Botón secundario */
+.btn-secondary {
+  width: 100%;
+  padding: 1rem;
+  background: transparent;
+  border: 2px solid var(--pink);
+  color: var(--pink);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
